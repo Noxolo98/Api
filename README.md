@@ -31,19 +31,19 @@ The API will start on http://localhost:3000 or another port if configured.
 
 USAGE:
 
-# Get all resources
+# get all subjects
  http://localhost:3000/subjects
 
-# Get a resource by ID
+# Get a subject by ID
  http://localhost:3000/subjects/1
 
-# Create a new resource
-POST "Content-Type: application/json" -d '{"name": "New Resource", "description": "Details here"}' http://localhost:3000/subjects
+# Create a new subject
+POST "Content-Type: application/json" -d '{"name": "New subject", "description": "Details here"}' http://localhost:3000/subjects
 
-# Update a resource by ID
-PUT "Content-Type: application/json" -d '{"name": "Updated Resource", "description": "Updated details"}' http://localhost:3000/subjects/1
+# Update a subject by ID
+PUT "Content-Type: application/json" -d '{"name": "Updated subject", "description": "Updated details"}' http://localhost:3000/subjects/1
 
-# Delete a resource by ID
+# Delete a subject by ID
 DELETE http://localhost:3000/subjects/1
 
 ENDPOINTS:
